@@ -1,0 +1,52 @@
+<!doctype html>
+<head>
+<title>Flex Box Project Entry Point</title>
+<style>
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin:0%;
+}
+.main{
+    height: 100vh;
+    width:100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 25px;
+    flex-direction: column;
+}
+button{
+    width: 500px;
+    height: 70px;
+    background-color: rgb(251, 188, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin:20px;
+    border-radius: 28px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    
+    
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+</style></head>
+<body>
+<div class="main">
+     <div>Flex Box Project {Click on any page to navigate}</div>
+     <button><a href="FlexBoxLayout.html">Flex Box Layout Page 1</a></button>
+     <button><a href="FlexBoxGallery.html">Flex Box Gallery Page 2</a></button>
+     <button><a href="FlexBoxCards.html">Flex Box Cards Page 3</a></button>
+     <button><a href="FlexBoxMedia.html">Flex Box Media Page 4</a></button>
+</div>
+</body>
